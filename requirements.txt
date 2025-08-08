@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+cryptography
+pytest
+httpx
+pytest-cov
+pytest-html
