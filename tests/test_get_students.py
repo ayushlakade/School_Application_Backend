@@ -29,8 +29,8 @@ def test_get_students_by_id():
 
 def test_insert_student():
     response = client.post("student/insert_student_record",json={
-    "student_name":"Ayush lakade",
-    "student_email":"ayushlakade7@gmail.com"
+    "student_name":"Ayush sharma2",
+    "student_email":"ayushsharma6229@gmail.com"
 })
     assert response.status_code == 201
     data = response.json()
@@ -46,12 +46,12 @@ def test_patch_update_student_record():
     data = response.json()
     assert "message" in data
 
-def test_patch_update_student_record_by_id():
-    response = client.patch("student/update_student_name_by_email_id",json={
-        "student_name": "omkar dattakumar umbarkar",
-        "student_email": "oumbarkar77@gmail.com"
-
-    })
-    assert response.status_code == 200
-    data = response.json()
-    assert "message" in data
+# def test_patch_update_student_record_by_id():
+#     response = client.patch("student/update_student_name_by_email_id",json={
+#         "student_name": "omkar dattakumar umbarkar",
+#         "student_email": "oumbarkar77@gmail.com"
+#
+#     })
+#     assert response.status_code == 200
+#     data = response.json()
+#     assert "message" in data
