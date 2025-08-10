@@ -1,0 +1,7 @@
+{
+  "DB_USER":"admin",
+  "DB_PASSWORD":"admin123",
+  "DB_IP":"195.35.6.88",
+  "DB_PORT":3306,
+  "DB_NAME":"Student_Backend"
+}
