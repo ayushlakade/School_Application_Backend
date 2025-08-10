@@ -6,7 +6,7 @@ import pymysql
 
 from config_parser import parse_file
 
-file_path=os.path.dirname(__file__)
+file_path=os.path.dirname(os.path.dirname(__file__))
 print(file_path)
 config_details=parse_file(os.path.join(file_path,'../db_connection.json'))
 
