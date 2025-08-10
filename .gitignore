@@ -1,4 +1,4 @@
 *.log
-db_connection.json
 .venv
 .idea
+db_connection.json
